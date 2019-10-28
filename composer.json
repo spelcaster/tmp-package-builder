@@ -10,7 +10,8 @@
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "5.8.*"
+        "laravel/framework": "5.8.*",
+        "spelcaster/doiweb-analyzer": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -40,6 +41,12 @@
             "database/factories"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:spelcaster/doiweb-analyzer.git"
+        }
+    ],
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
